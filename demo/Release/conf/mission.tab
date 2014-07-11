@@ -1,6 +1,0 @@
-﻿#小关卡的配置表，id--> 1开头表示简单，2：中等 3：困难 4：噩梦																																			
-#CLIENT	1	1																																	
-#小关卡的ID	关卡名称	关卡路径	服务器关卡地图路径	难度系数：1：非R,2：中小R，3：中R，4：大R	时间余量（理论时间的倍数，只有pve有效）	关卡怪物血量权值	关卡怪物攻击权值	关卡怪物护甲权值	关卡怪物穿甲的权值	关卡怪物暴击权值	关卡怪物防爆权值	移动速度权值	Boss的随机技能数量	精英的随机技能数量	NPC子弹速度加速倍数	技能加强系数（缩短技能前摇时间多少倍）	生命数量	复活方式：1->原地复活 2:重生点复活 0->随机复活（PVP专用）	续关费用（点券），0表示不可以续关	时间限制（秒）(用于给pvp混战提供倒计时计算)	重生CD时间（秒）	重生无敌时间（秒）	是否可用于pvp	是否可用于pve（1：单人，2：多人）		是否为彩蛋关	所属的活动id	关卡内有多少木箱使用random_box的规则	关卡评分方案id	是否显示进度条	填写后，该关卡的配置相关将使用填写关卡的配置	为1代表弹框结束，0代表直接结束	禁止显示结算	掉落等级系数方案	天气节奏方案
-id	sz_name	sz_file_url	sz_map_lua	difficulty_factor	time_factor	npc_blood	npc_atk	npc_def	npc_atk_def	npc_crit	npc_def_crit	npc_speed	boss_skill_count	random_skill_count	bullet_speed_extra	skill_extra	life_num	revive_mode	contiune_cast	time_limit	revive_cdtime	revive_invincible_time	pvp	pve	world	egg	activity_id	use_random_box_count	rank_rule_id	task_bar	link	end_mode	disable_show_result	sz_drop_by_level_scheme	sz_weather_rhythm
-10101	新手1	maps/map10101.tmx	maps/map10101.lua	1	10	0.145	1	1	1	1	1	1		0			99999	1	0	900	5	5	0	1					1	1		1			
-10106	新手2	maps/map10106.tmx	maps/map10106.lua	1	10	0.15	1	1	1	1	1	1		0			99999	1	0	900	5	5	0	1					1	1		1			
